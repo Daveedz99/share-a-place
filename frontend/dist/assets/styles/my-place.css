@@ -4,6 +4,8 @@
   max-width: 90%;
   margin: 2rem auto;
   border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
 }
 
 #map {
@@ -19,18 +21,20 @@
   max-width: 90%;
   margin: 2rem auto;
   border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
   padding: 1rem;
   text-align: center;
 }
 
 #share-controls a {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   background: #36007c;
   color: white;
   border: 1px solid #36007c;
   border-radius: 6px;
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1rem;
   margin: 0.5rem 0;
   cursor: pointer;
 }
@@ -39,8 +43,11 @@
   outline: none;
 }
 
-#share-controls a:hover,
-#share-controls a:active {
+#share-controls a:hover {
   background: #55007c;
   border-color: #55007c;
+}
+#share-controls a:active {
+  background: #3f005c;
+  border-color: #35004e;
 }
